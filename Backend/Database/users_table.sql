@@ -27,7 +27,7 @@ CREATE user_profiles(
 
 -- migration: down 
 DROP TABLE IF EXISTS project_members; 
-DROP TABLE IF EXISTS tasks; 
+DROP TABLE IF EXISTS tasks;  
 DROP TABLE IF EXISTS projects; 
 DROP TABLE IF EXISTS user_profiles; 
 
